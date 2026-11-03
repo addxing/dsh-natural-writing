@@ -1,0 +1,4 @@
+- insert:
+    - id: local-natural-writing
+      name: '@local/dsh-natural-writing'
+      config: {}

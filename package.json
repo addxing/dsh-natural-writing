@@ -1,0 +1,15 @@
+{
+  "name": "@local/dsh-natural-writing",
+  "version": "1.1.0",
+  "description": "Natural writing guidance for generated text and document prose",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "policy.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md", "VERIFICATION.md", "test/*.test.js"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
