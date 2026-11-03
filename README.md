@@ -1,7 +1,5 @@
 # 自然文风 · 去 AI 味
 
-这是安装在 DeepSeek Harness 当前 profile 的 Host 插件，不是 Harmony 应用功能。无需编译或额外 API Key，不改业务代码。
-
 ## 使用
 
 启用后，后续模型步骤收到自然文风要求，覆盖聊天回复、新写或改写的邮件、文案、报告和 Office 文档正文。文件处理仍使用 Harness 已有工具和对应 Office 技能；本插件不是 Word 格式解析器，也不会扫描或批量覆盖已有文档。
