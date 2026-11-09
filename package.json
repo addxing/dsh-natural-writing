@@ -1,8 +1,11 @@
 {
-  "name": "@local/dsh-natural-writing",
+  "name": "dsh-natural-writing",
   "version": "1.1.0",
   "description": "Natural writing guidance for generated text and document prose",
-  "private": true,
+  "repository": { "type": "git", "url": "git+https://github.com/addxing/dsh-natural-writing.git" },
+  "homepage": "https://github.com/addxing/dsh-natural-writing#readme",
+  "bugs": { "url": "https://github.com/addxing/dsh-natural-writing/issues" },
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
   "type": "module",
   "exports": {
     ".": "./index.js",

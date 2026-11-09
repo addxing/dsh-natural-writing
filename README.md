@@ -1,5 +1,21 @@
 # 自然文风 · 去 AI 味
 
+## 安装
+
+使用 DeepSeek Harness Desktop 时，先启动一次以初始化配置，然后完全退出应用，在终端执行：
+
+```bash
+dsh plugin --profile desktop add github:addxing/dsh-natural-writing
+```
+
+也可以从 npm 安装：
+
+```bash
+dsh plugin --profile desktop add dsh-natural-writing
+```
+
+安装后重新打开 Desktop。其他 DSH 配置可将 `desktop` 替换为对应的 profile 名称。
+
 ## 使用
 
 启用后，后续模型步骤收到自然文风要求，覆盖聊天回复、新写或改写的邮件、文案、报告和 Office 文档正文。文件处理仍使用 Harness 已有工具和对应 Office 技能；本插件不是 Word 格式解析器，也不会扫描或批量覆盖已有文档。
@@ -48,7 +64,7 @@
 
 ## 管理
 
-在 Harness 插件管理中查找“自然文风 · 去 AI 味”或包名 `@local/dsh-natural-writing`，可以禁用或移除。安装影响当前 profile 的所有会话，并在重启后保留。本地安装关联此源码目录，请保留目录；修改已安装的 JavaScript 后需重启 Harness 才能加载新版本。
+在 Harness 插件管理中通过 npm 包名 `dsh-natural-writing` 安装，安装后可查找“自然文风 · 去 AI 味”并禁用或移除。安装影响当前 profile 的所有会话，并在重启后保留。使用本地源码安装时，请保留源码目录；修改已安装的 JavaScript 后需重启 Harness 才能加载新版本。
 
 ## 实现与验证
 
