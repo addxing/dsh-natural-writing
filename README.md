@@ -16,6 +16,8 @@ dsh plugin --profile desktop add dsh-natural-writing
 
 安装后重新打开 Desktop。其他 DSH 配置可将 `desktop` 替换为对应的 profile 名称。
 
+如果终端找不到 `dsh`，可在 Desktop 的应用菜单中选择 **Manage dsh Command…** 安装命令。macOS 默认安装路径下，也可以用 `"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh"` 代替 `dsh`。
+
 ## 使用
 
 启用后，后续模型步骤收到自然文风要求，覆盖聊天回复、新写或改写的邮件、文案、报告和 Office 文档正文。文件处理仍使用 Harness 已有工具和对应 Office 技能；本插件不是 Word 格式解析器，也不会扫描或批量覆盖已有文档。
